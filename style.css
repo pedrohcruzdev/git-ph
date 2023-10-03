@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(11, 185, 243);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  color: white;
+  text-decoration: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  background-color: lightblue;
+}
+
+.rodape {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+
+}
+
+h3 {
+  color: white;
+  background-color: brown;
+}
+
+h2 {
+  color: aliceblue;
+  background-color: rgb(42, 130, 165);
+}
+
+p {
+  color: blue;
+  background-color: rgb(127, 176, 255);
+}
+
+#menu-h li {
+  text-align: center;
+  list-style: none;
+  background-color: azure;
+  display: flex;
+  border-radius: 5px;
+  
+}
+
+.itemLista  {
+  padding: 5px;
+  text-decoration: none;
+  
+}
+#searchbar{
+  margin-left: 15%;
+  padding:15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+   width: 30%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+     change its width to 100% */
+input[type=text]:focus {
+  width: 70%;
+}
+
+#list{
+ font-size:  1.5em;
+ margin-left: 90px;
+}
+
+.animals{
+display: list-item;    
+}
